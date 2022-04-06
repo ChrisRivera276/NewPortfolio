@@ -29,6 +29,7 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="CSS/hoverCard.css">
+    <link rel="stylesheet" href="CSS/blogCards.css">
 
 </head>
 
@@ -206,8 +207,9 @@
                     <div class="hc-wrapper">
                         <div class="hc-card">
                             <picture>
-                                <source srcset="/img/logos/BugTracker_600.jpg" media="(min-width:991.98px)">
-                                <img src="img/logos/BugTracker_200.jpg" alt="">
+                                <source srcset="/img/logos/Personally Built/Bug_Tracker_600.png"
+                                    media="(min-width:991.98px)">
+                                <img src="img/logos/Personally Built/Bug_Tracker_225.png" alt="">
                             </picture>
                             <div class="hc-content">
                                 <p>A Full-stack bug tracker app built with ASP.NET MVC, C# and SQL</p>
@@ -221,8 +223,8 @@
                     <div class="hc-wrapper">
                         <div class="hc-card">
                             <picture>
-                                <source srcset="/img/logos/Blog_600.jpg" media="(min-width:991.98px)">
-                                <img src="img/logos/Blog_200.jpg" alt="">
+                                <source srcset="/img/logos/Personally Built/Blog_600.png" media="(min-width:991.98px)">
+                                <img src="img/logos/Personally Built/Blog_225.png" alt="">
                             </picture>
                             <div class="hc-content">
                                 <p>A Full-stack</p>
@@ -236,21 +238,20 @@
                     <div class="hc-wrapper">
                         <div class="hc-card">
                             <picture>
-                                <source srcset="/img/logos/ExpenseTracker_600.jpg" media="(min-width:991.98px)">
-                                <img src="img/logos/ExpenseTracker_200.jpg" alt="">
+                                <source srcset="/img/logos/Personally Built/Address_Book_600.png"
+                                    media="(min-width:991.98px)">
+                                <img src="img/logos/Personally Built/Address_Book_225.png" alt="">
                             </picture>
                             <div class="hc-content">
                                 <p>A Full-stack</p>
                                 <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                    data-bs-target="#MoneyGrow">Learn More</button>
+                                    data-bs-target="#AddressBook">Learn More</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
 
         <section id="challenges" class="section-page">
             <h1>Smaller Things I Have Built</h1>
@@ -352,11 +353,77 @@
 
 
 
-
+        <!-- Bloog Section -->
 
 
         <section id="blog" class="section-page">
             <h1>Stuff I Write About</h1>
+            <p>I wtry to write on my blog on a regulat basis
+            </p>
+            <div class="d-flex flex-column alight-items-center alight-items-md-start">
+                <article class="card mb-4 blog-article">
+                    <div class="row g-0 blog-row">
+                        <div class="col-md-4 blog-header">
+                            <a class="blog-imag-link" href="#">
+                                <img src="img/Blog/Blog_FlyingGirl.jpg" class="blog-image" alt="Flying Girl SQL">
+                            </a>
+                            <div class="blog-date">
+                                <div class="blog-day">06</div>
+                                <div class="blog-month">April</div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body d-flex flex-column justify-content-around h-100">
+                                <h5 class="card-title">MAKE SQL QUERIES FLY</h5>
+                                <p class="card-text line-clamp">
+                                    We apply the proverb 'Look before you leap' not only to our content but our
+                                    power to repurpose. A company that can synthesize courageously will (eventually)
+                                    be able to transition easily. Imagine a combination of HTTP and AJAX. We will
+                                    revalue our aptitude to empower without depreciating our capability to implement
+                                    wirelessly leads to the capacity to synthesize interactively. Without niches,
+                                    you will lack architectures. Spriti introduced new capabilities to the awards
+                                    page of the customer journey.
+                                </p>
+                                    <div class="text-start">
+                                        <a class="btn btn-success btn-sm" href="#">Read More</a>
+                                    </div>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card mb-4 blog-article">
+                    <div class="row g-0 blog-row">
+                        <div class="col-md-4 blog-header">
+                            <a class="blog-imag-link" href="#">
+                                <img src="img/Blog/Blog_CodeTag.jpg" class="blog-image" alt="Code Tag">
+                            </a>
+                            <div class="blog-date">
+                                <div class="blog-day">09</div>
+                                <div class="blog-month">April</div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body d-flex flex-column justify-content-around h-100">
+                                <h5 class="card-title">MAKE SQL QUERIES FLY</h5>
+                                <p class="card-text line-clamp">
+                                    We apply the proverb 'Look before you leap' not only to our content but our
+                                    power to repurpose. A company that can synthesize courageously will (eventually)
+                                    be able to transition easily. Imagine a combination of HTTP and AJAX. We will
+                                    revalue our aptitude to empower without depreciating our capability to implement
+                                    wirelessly leads to the capacity to synthesize interactively. Without niches,
+                                    you will lack architectures. Spriti introduced new capabilities to the awards
+                                    page of the customer journey.
+                                </p>
+                                    <div class="text-start">
+                                        <a class="btn btn-success btn-sm" href="#">Read More</a>
+                                    </div>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
         <section id="contact" class="section-page">
             <h1>Lets Chat</h1>
@@ -381,34 +448,41 @@
                             <div class="col-12 col-md-5">
                                 <div id="BugTracker" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                      <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                      <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                      <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                      <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#BugTracker" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
                                     </div>
                                     <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img src="/img/logos/BugTracker_600.jpg" class="d-block w-100">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen1.jpg" class="d-block w-100">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen2.jpg" class="d-block w-100">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen3.jpg" class="d-block w-100">
-                                      </div>
+                                        <div class="carousel-item active">
+                                            <img src="/img/logos/Personally Built/Bug_Tracker_600.png"
+                                                class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen1.jpg" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen2.jpg" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen3.jpg" class="d-block w-100">
+                                        </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#BugTracker" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#BugTracker"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#BugTracker" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#BugTracker"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
                                     </button>
-                                  </div>
+                                </div>
                                 <!-- Images Go Here -->
                             </div>
                             <div class="col-12 col-md-7">
@@ -467,34 +541,44 @@
                             <div class="col-12 col-md-5">
                                 <div id="Blog2" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                      <button type="button" data-bs-target="#Blog2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                      <button type="button" data-bs-target="#Blog2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                      <button type="button" data-bs-target="#Blog2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                      <button type="button" data-bs-target="#Blog2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#Blog2" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#Blog2" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#Blog2" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#Blog2" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
                                     </div>
                                     <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img src="/img/logos/Blog_600.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen1.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen2.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen3.jpg" class="d-block w-100" alt="...">
-                                      </div>
+                                        <div class="carousel-item active">
+                                            <img src="/img/logos/Personally Built/Blog_600.png" class="d-block w-100"
+                                                alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen1.jpg" class="d-block w-100"
+                                                alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen2.jpg" class="d-block w-100"
+                                                alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen3.jpg" class="d-block w-100"
+                                                alt="...">
+                                        </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#Blog2" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#Blog2"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#Blog2" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#Blog2"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
                                     </button>
-                                  </div>
+                                </div>
                                 <!-- Images Go Here -->
                             </div>
                             <div class="col-12 col-md-7">
@@ -539,48 +623,55 @@
             </div>
         </div>
     </div>
-    <!-- Money Grow Modal !!!!!!!!!!!!!!! CHANGE TO ADDRESS BOOK!!!!!!!!!!!!!!!!!!!!!-->
-    <div class="modal fade" id="MoneyGrow" tabindex="-1" aria-lableby="MoneyGrow aria-hidden=true">
+    <!-- Address Book-->
+    <div class="modal fade" id="AddressBook" tabindex="-1" aria-lableby="AddressBook" aria-hidden="true">
         <div class=" modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="motal-title" id="MoneyGrow">Money Grow</h5>
+                    <h5 class="motal-title" id="AddressBook">Address Book</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-md-5">
-                                <div id="ExpenseTracker" class="carousel slide" data-bs-ride="carousel">
+                                <div id="AddressBook2" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                      <button type="button" data-bs-target="#ExpenseTracker" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                      <button type="button" data-bs-target="ExpenseTracker" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                      <button type="button" data-bs-target="ExpenseTracker" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                      <button type="button" data-bs-target="#ExpenseTracker" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#AddressBook2" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#AddressBook2" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#AddressBook2" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#AddressBook2" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
                                     </div>
                                     <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img src="/img/logos/ExpenseTracker_600.jpg" class="d-block w-100">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen1.jpg" class="d-block w-100">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen2.jpg" class="d-block w-100">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="/img/screenshots/BugTrackerScreen3.jpg" class="d-block w-100">
-                                      </div>
+                                        <div class="carousel-item active">
+                                            <img src="/img/logos/Personally Built/Address_Book_600.png"
+                                                class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen1.jpg" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen2.jpg" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="/img/screenshots/BugTrackerScreen3.jpg" class="d-block w-100">
+                                        </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#ExpenseTracker" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#AddressBook2"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#ExpenseTracker" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#AddressBook2"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
                                     </button>
-                                  </div>
+                                </div>
                                 <!-- Images Go Here -->
                             </div>
                             <div class="col-12 col-md-7">
@@ -625,90 +716,6 @@
             </div>
         </div>
     </div>
-<!-- Loan Shark Modal !!!!!!!!!!!!!!!!!!!!!!! NEEDS WORK!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<div class="modal fade" id="LoanShark" tabindex="-1" aria-lableby="LoanShark aria-hidden=true">
-    <div class=" modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="motal-title" id="LoanShark">Loan Shark</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-5">
-                            <div id="CarouselProjectOne" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#CarouselProjectOne" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                  <button type="button" data-bs-target="#CarouselProjectOne" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                  <button type="button" data-bs-target="#CarouselProjectOne" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                  <button type="button" data-bs-target="#CarouselProjectOne" data-bs-slide-to="2" aria-label="Slide 4"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="/img" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="/img/screenshots/BugTrackerScreen1.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="/img/screenshots/BugTrackerScreen2.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="/img/screenshots/BugTrackerScreen3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                            <!-- Images Go Here -->
-                            <img src="/img/logos/Personally Built/LOAN SHARK.png">
-                        </div>
-                        <div class="col-12 col-md-7">
-                            <!-- Project Description Goes Here -->
-                            <h3>Bug Tracker</h3>
-                            <p>
-                                Insecticide is a software defect tracking system.
-                                Commonly known as a bug tracker. Insectcide is built
-                                with ASP.NET, MVC, C# and SQL. A role based security
-                                system was implemented to create permission based roles.
-                                The roles of Admin , Project Manager, Developer and
-                                Submitter restrict what the user can see and do. The
-                                software allows for users to submit tickets and those
-                                tickets are tracked through status from Open to
-                                Complete.
-                            </p>
-                            <p>
-                                The system was built with C# and .Net in 3 weeks. The
-                                front end was developed with HTML, Javascript and
-                                Bootstrap. The back-end utlizies MVC and C#. The database
-                                was built with SQL Server and hosted on Azure. Please
-                                visit the site and try it out.
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Visit Site</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
 
     <!-- Bootstrap JS -->
 
