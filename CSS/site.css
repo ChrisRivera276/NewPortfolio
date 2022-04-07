@@ -24,8 +24,8 @@
     --cr-formfocus-shadow: var(--cr-primary-color);
     --cr-formfocus-background-color: var(--cr-background-color);
 
-    --cr-nav-toggler-glow: rgba(237, 2, 2, 0.55);
-    --cr-nav-toggler-color: red;
+    --cr-nav-toggler-glow: rgba(255, 251, 8, 0.843);
+    --cr-nav-toggler-color: rgb(93, 0, 255);
 }
 
 /* ---- Element Overrides ---- */
