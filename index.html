@@ -411,10 +411,10 @@
                     </div>
                 </article>
                 <article class="card mb-4 blog-article">
-                    <div class="row g-0 blog-row">
+                    <div class="row g-0 blog-row" id="blog2">
                         <div class="col-md-4 blog-header">
                             <a class="blog-image-link" href="#">
-                                <img src="img/Blog/Blog_CodeTag.jpg" class="blog-image" alt="Code Tag">
+                                <img id="image2" src="img/Blog/Blog_CodeTag.jpg" class="blog-image" alt="Code Tag">
                             </a>
                             <div class="blog-date">
                                 <div class="blog-day">09</div>
@@ -886,7 +886,7 @@
     </script>
     <script>
         // step 1: call the blog service to get the data
-        fetch('//blog-coded-by-chris-rivera.herokuapp.com/GetTopXPosts/1')
+        fetch('//blog-coded-by-chris-rivera.herokuapp.com/api/BlogPostsApi?num=1')
             .then(response => response.json())
             .then(function (data) {
                 // Alert(JSON.stringify(data));
@@ -898,7 +898,7 @@
                 //     month: "short",
                 //     day: 'numeric'
 
-
+                // Data elements from most recent Blog
                 let blog1 = document.getElementById("blog1");
                 let title1 = blog1.querySelector("h5.card-title");
                 title1.innerHTML = data[0].title;
@@ -915,6 +915,27 @@
                 blogDay.innerHTML = created.split(" ")[1];
                 let blogMonth = document.querySelector("#blog1 div.blog-month");
                 blogMonth.innerHTML = created.split(" ")[0];
+
+
+                let blog2 = document.getElementById("blog2");
+                let title2 = blog1.querySelector("h5.card-title");
+                title2.innerHTML = data[1].title;
+                let abstract2 = blog1.querySelector("p.line-clamp")
+                abstract1.innerHTML = data[1].abstract;
+                let image2 = document.getElementById("image2");
+                image1.setAttribute("src", `data:${data[1].imageType};base64,${data[1].imageData}`);
+                let options2 = {
+                    month: 'short',
+                    day: 'numeric'
+                };
+                let created2 = new Date(data[1].created).toLocaleDateString("en-US", options2);
+                let blogDay2 = document.querySelector("#blog1 div.blog-day");
+                blogDay.innerHTML = created2.split(" ")[1];
+                let blogMonth2 = document.querySelector("#blog1 div.blog-month");
+                blogMonth.innerHTML = created2.split(" ")[0];
+
+
+
             })
     </script>
 
