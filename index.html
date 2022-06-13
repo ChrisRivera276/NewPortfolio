@@ -78,8 +78,7 @@
         <div class="mainHeader">
             <div class="mainHeader-content h-100 w-100 d-flex align-items-center justify-content-start">
                 <div class="mainHeader-wrapper">
-                    <div class="mainTitle">CHRIS
-                    </div>
+                    <div class="mainTitle">CHRIS</div>
                     <div class="mainTitle">RIVERA</div>
                     <div class="subTitle">WEB DEVELOPER</div>
                     <a class="btn btn-success mt-3" href="#contact">Contact Me</a>
@@ -114,10 +113,10 @@
                     </p>
                     <address>
                         <div class="row">
-                            <div class="col-12 col-lg-6">
+                            <!-- <div class="col-12 col-lg-6">
                                 <span>Name:</span>
-                                <span>Chris RIvera</span>
-                            </div>
+                                <span>Chris Rivera</span>
+                            </div> -->
                             <div class="col-12 col-lg-6">
                                 <span>Email:</span>
                                 <span>
@@ -125,11 +124,13 @@
                                 </span>
                             </div>
                             <div class="col-12">
-                                <span>From:</span>
-                                <span>Martinsville, VA</span>
+                                <span>Located in Martinsville, VA</span>
                             </div>
                             <div class="col-12">
-                                <a href="#INSERT RESUME FILE!!!!" class="btn btn-success mt-3">Download Resume</a>
+                                <a href="https://www.linkedin.com/in/chris-rivera-3b461823a/" target="_blank"
+                                    class="btn btn-success mt-3">LinkedIn</a>
+                                <a href="https://github.com/ChrisRivera276" target="_blank"
+                                    class="btn btn-success mt-3">GitHub</a>
                             </div>
                         </div>
                     </address>
@@ -296,21 +297,6 @@
                     <div class="hc-wrapper">
                         <div class="hc-card">
                             <picture>
-                                <source srcset="/img/logos/Personally Built/Tasker_600.png"
-                                    media="(min-width: 991.98px)">
-                                <img src="/img/logos/Personally Built/Tasker_225.png" alt="">
-                            </picture>
-                            <div class="hc-content">
-                                <p>Tasker!</p>
-                                <button type="button" class="btn btn-success" target="_blank">Visit Site</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="hc-wrapper">
-                        <div class="hc-card">
-                            <picture>
                                 <source srcset="/img/logos/Personally Built/SuperDog_600.jpg"
                                     media="(min-width: 991.98px)">
                                 <img src="/img/logos/Personally Built/SuperDog_225.png" alt="">
@@ -334,7 +320,7 @@
                             <div class="hc-content">
                                 <p>Hundo!</p>
                                 <a href="https://hundo-by-chris-rivera.netlify.app/" type="button"
-                                    class="btn btn-success" target="_blank" <a>Visit Site</a>
+                                    class="btn btn-success" target="_blank">Visit Site</a>
                             </div>
                         </div>
                     </div>
@@ -364,7 +350,7 @@
                                 <img src="/img/logos/Personally Built/Reverse_A_String_225.png" alt="">
                             </picture>
                             <div class="hc-content">
-                                <p>Reverse A String</p>
+                                <p>Reverse A String!</p>
                                 <a href="https://reverse-a-string-by-chris-rivera.netlify.app/" type="button"
                                     target="_blank" class="btn btn-success">Visit Site</a>
                             </div>
@@ -375,68 +361,80 @@
         </section>
         <!-- Blog Section -->
         <section id="blog" class="section-page">
-            <h1>Stuff I Write About</h1>
-            <p>I try to write on my blog on a regular basis</p>
+            <h1>What I Write About</h1>
+            <p>These are blog entries that I have written</p>
             <div class="d-flex flex-column alight-items-center alight-items-md-start">
+                <!-- Most recent article -->
                 <article class="card mb-4 blog-article">
                     <div class="row g-0 blog-row" id="blog1">
                         <div class="col-md-4 blog-header">
-                            <a class="blog-image-link" href="#">
-                                <img id="image1" src="img/Blog/Blog_FlyingGirl.jpg" class="blog-image"
-                                    alt="Flying Girl SQL">
+                            <a class="blog-image-link" href="//blog-coded-by-chris-rivera.herokuapp.com/">
+                                <img id="image1" src=" " class="blog-image" style="height:15rem">
                             </a>
                             <div class="blog-date">
-                                <div class="blog-day">06</div>
-                                <div class="blog-month">April</div>
+                                <div id="created1"></div>
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body d-flex flex-column justify-content-around h-100">
-                                <h5 class="card-title">MAKE SQL QUERIES FLY</h5>
+                            <div class="card-body h-100 d-flex flex-column justify-content-around">
+                                <h4 class="w-title"></h4>
                                 <p class="card-text line-clamp">
-                                    We apply the proverb 'Look before you leap' not only to our content but our
-                                    power to repurpose. A company that can synthesize courageously will (eventually)
-                                    be able to transition easily. Imagine a combination of HTTP and AJAX. We will
-                                    revalue our aptitude to empower without depreciating our capability to implement
-                                    wirelessly leads to the capacity to synthesize interactively. Without niches,
-                                    you will lack architectures. Spriti introduced new capabilities to the awards
-                                    page of the customer journey.
                                 </p>
                                 <div class="text-start">
-                                    <a class="btn btn-success btn-sm" href="#">Read More</a>
+                                    <a class="btn btn-success btn-sm" id="image1a" href="" target="_blank">Read More</a>
                                 </div>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text"><small id="#lastUpdated" class="text-muted"></small>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </article>
+                <!-- 2nd most recent article -->
                 <article class="card mb-4 blog-article">
-                    <div class="row g-0 blog-row" id="blog2">
+                    <div class="row g-0 blog-row" id="blogNum2">
                         <div class="col-md-4 blog-header">
-                            <a class="blog-image-link" href="#">
-                                <img id="image2" src="img/Blog/Blog_CodeTag.jpg" class="blog-image" alt="Code Tag">
+                            <a class="blog-image-link" href="//blog-coded-by-chris-rivera.herokuapp.com/">
+                                <img id="image2" src=" " class="blog-image" style="height:15rem">
                             </a>
                             <div class="blog-date">
-                                <div class="blog-day">09</div>
-                                <div class="blog-month">April</div>
+                                <div id="created2"></div>
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body d-flex flex-column justify-content-around h-100">
-                                <h5 class="card-title">MAKE SQL QUERIES FLY</h5>
-                                <p class="card-text line-clamp.032">
-                                    We apply the proverb 'Look before you leap' not only to our content but our
-                                    power to repurpose. A company that can synthesize courageously will (eventually)
-                                    be able to transition easily. Imagine a combination of HTTP and AJAX. We will
-                                    revalue our aptitude to empower without depreciating our capability to implement
-                                    wirelessly leads to the capacity to synthesize interactively. Without niches,
-                                    you will lack architectures. Spriti introduced new capabilities to the awards
-                                    page of the customer journey.
+                            <div class="card-body h-100 d-flex flex-column justify-content-around">
+                                <h4 class="w-title"></h4>
+                                <p class="card-text line-clamp">
                                 </p>
                                 <div class="text-start">
-                                    <a class="btn btn-success btn-sm" href="#">Read More</a>
+                                    <a class="btn btn-success btn-sm" id="image2a" href="" target="_blank">Read More</a>
                                 </div>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text"><small id="#lastUpdated2" class="text-muted"></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- 3rd most recent article -->
+                <article class="card mb-4 blog-article">
+                    <div class="row g-0 blog-row" id="blogNum3">
+                        <div class="col-md-4 blog-header">
+                            <a class="blog-image-link" href="//blog-coded-by-chris-rivera.herokuapp.com/">
+                                <img id="image3" src=" " class="blog-image" style="height:15rem">
+                            </a>
+                            <div class="blog-date">
+                                <div id="created3"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body h-100 d-flex flex-column justify-content-around">
+                                <h4 class="w-title"></h4>
+                                <p class="card-text line-clamp">
+                                </p>
+                                <div class="text-start">
+                                    <a class="btn btn-success btn-sm" id="image3a" href="" target="_blank">Read More</a>
+                                </div>
+                                <p class="card-text"><small id="#lastUpdated3" class="text-muted"></small>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -746,7 +744,7 @@
             </div>
         </div>
     </div>
-    <!-- Address Book-->
+    <!-- Address Book Modal-->
     <div class="modal fade" id="AddressBook" tabindex="-1" aria-lableby="AddressBook" aria-hidden="true">
         <div class=" modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down">
             <div class="modal-content">
@@ -886,57 +884,59 @@
     </script>
     <script>
         // step 1: call the blog service to get the data
-        fetch('//blog-coded-by-chris-rivera.herokuapp.com/api/BlogPostsApi?num=1')
+        fetch('//blog-coded-by-chris-rivera.herokuapp.com/api/BlogPostsApi?num=3')
             .then(response => response.json())
             .then(function (data) {
-                // Alert(JSON.stringify(data));
-
-                // In order to display some of the data, like the created date a little more work is involved
-                // let options = {
-                //     weekday: 'short',
-                //     year: 'numeric',
-                //     month: "short",
-                //     day: 'numeric'
-
-                // Data elements from most recent Blog
+                // Most recent blog post
                 let blog1 = document.getElementById("blog1");
-                let title1 = blog1.querySelector("h5.card-title");
+                let title1 = blog1.querySelector("h4.w-title");
                 title1.innerHTML = data[0].title;
-                let abstract1 = blog1.querySelector("p.line-clamp")
+                let abstract1 = blog1.querySelector("p.line-clamp");
                 abstract1.innerHTML = data[0].abstract;
+                let footer1 = document.getElementById("#lastUpdated");
+                footer1.innerHTML = `Last Updated: ${new Date(data[0].updated).toLocaleDateString("en-US")}`;
                 let image1 = document.getElementById("image1");
                 image1.setAttribute("src", `data:${data[0].imageType};base64,${data[0].imageData}`);
-                let options = {
-                    month: 'short',
-                    day: 'numeric'
-                };
-                let created = new Date(data[0].created).toLocaleDateString("en-US", options);
-                let blogDay = document.querySelector("#blog1 div.blog-day");
-                blogDay.innerHTML = created.split(" ")[1];
-                let blogMonth = document.querySelector("#blog1 div.blog-month");
-                blogMonth.innerHTML = created.split(" ")[0];
+                let image1a = document.getElementById("image1a");
+                image1a.setAttribute("href",
+                    `//blog-coded-by-chris-rivera.herokuapp.com/PostDetails/${data[0].slug}`);
+                let created1 = document.getElementById("created1");
+                created1.innerHTML = `Created: ${new Date(data[0].created).toLocaleDateString("en-US")}`;
 
-
-                let blog2 = document.getElementById("blog2");
-                let title2 = blog1.querySelector("h5.card-title");
+                // 2nd most recent blog post
+                let blogNum2 = document.getElementById("blogNum2");
+                let title2 = blogNum2.querySelector("h4.w-title");
                 title2.innerHTML = data[1].title;
-                let abstract2 = blog1.querySelector("p.line-clamp")
-                abstract1.innerHTML = data[1].abstract;
+                let abstract2 = blogNum2.querySelector("p.line-clamp");
+                abstract2.innerHTML = data[1].abstract;
+                let footer2 = document.getElementById("#lastUpdated2");
+                footer2.innerHTML = `Last Updated: ${new Date(data[1].updated).toLocaleDateString("en-US")}`;
                 let image2 = document.getElementById("image2");
-                image1.setAttribute("src", `data:${data[1].imageType};base64,${data[1].imageData}`);
-                let options2 = {
-                    month: 'short',
-                    day: 'numeric'
-                };
-                let created2 = new Date(data[1].created).toLocaleDateString("en-US", options2);
-                let blogDay2 = document.querySelector("#blog1 div.blog-day");
-                blogDay.innerHTML = created2.split(" ")[1];
-                let blogMonth2 = document.querySelector("#blog1 div.blog-month");
-                blogMonth.innerHTML = created2.split(" ")[0];
+                image2.setAttribute("src", `data:${data[1].imageType};base64,${data[1].imageData}`);
+                let image2a = document.getElementById("image2a");
+                image2a.setAttribute("href",
+                    `//blog-coded-by-chris-rivera.herokuapp.com/PostDetails/${data[1].slug}`);
+                let created2 = document.getElementById("created2");
+                created2.innerHTML = `Created: ${new Date(data[1].created).toLocaleDateString("en-US")}`;
+
+                // 3rd most recent blog post
+                let blogNum3 = document.getElementById("blogNum3");
+                let title3 = blogNum3.querySelector("h4.w-title");
+                title3.innerHTML = data[2].title;
+                let abstract3 = blogNum3.querySelector("p.line-clamp");
+                abstract3.innerHTML = data[2].abstract;
+                let footer3 = document.getElementById("#lastUpdated3");
+                footer3.innerHTML = `Last Updated: ${new Date(data[2].updated).toLocaleDateString("en-US")}`;
+                let image3 = document.getElementById("image3");
+                image3.setAttribute("src", `data:${data[2].imageType};base64,${data[2].imageData}`);
+                let image3a = document.getElementById("image3a");
+                image3a.setAttribute("href",
+                    `//blog-coded-by-chris-rivera.herokuapp.com/PostDetails/${data[2].slug}`);
+                let created3 = document.getElementById("created3");
+                created2.innerHTML = `Created: ${new Date(data[2].created).toLocaleDateString("en-US")}`;
 
 
-
-            })
+            });
     </script>
 
 </body>

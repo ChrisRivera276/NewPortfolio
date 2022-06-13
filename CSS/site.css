@@ -9,7 +9,7 @@
     /* theme colors */
     --cr-primary-color: rgb(99, 165, 99);
     --cr-secondary-color: rgb(27, 126, 27);
-    --cr-highlight-color: rgb(255, 1, 1);
+    --cr-highlight-color: rgb(1, 255, 31);
     --cr-dark-color: rgb(53, 53, 53);
     --cr-light-color: rgb(222, 255, 214);
     --cr-background-color: rgba(250, 250, 250, .8);
@@ -24,8 +24,8 @@
     --cr-formfocus-shadow: var(--cr-primary-color);
     --cr-formfocus-background-color: var(--cr-background-color);
 
-    --cr-nav-toggler-glow: rgba(255, 251, 8, 0.843);
-    --cr-nav-toggler-color: rgb(93, 0, 255);
+    --cr-nav-toggler-glow: rgba(151, 255, 149, 0.843);
+    --cr-nav-toggler-color: rgb(179, 179, 179);
 }
 
 /* ---- Element Overrides ---- */
