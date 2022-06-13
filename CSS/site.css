@@ -259,14 +259,14 @@ a.socialIcons:hover {
 /* Break Points */
 @media(min-width: 575.98px) {
     .mainHeader {
-        background-image: url(/img/DevPortFolioBG_767.png);
+        background-image: url();
         height: 200px;
     }
 }
 
 @media(min-width: 767.98px) {
     .mainHeader {
-        background-image: url(/img/DevPortFolioBG_992.png);
+        background-image: url();
         height: 300px;
     }
 
@@ -285,14 +285,14 @@ a.socialIcons:hover {
 
 @media(min-width: 991.98px) {
     .mainHeader {
-        background-image: url(/img/DevPortFolioBG_1200.png);
+        background-image: url();
         height: 400px;
     }
 }
 
 @media(min-width: 1199.98px) {
     .mainHeader {
-        background-image: url(/img/DevPortFolioBG_2560.png);
+        background-image: url();
         height: 500px;
     }
 
@@ -311,7 +311,7 @@ a.socialIcons:hover {
 
 @media(min-width:1399.98px) {
     .mainHeader {
-        background-image: url(/img/DevPortFolioBG_2560.png);
+        background-image: url();
         height: 500px;
     }
 }
