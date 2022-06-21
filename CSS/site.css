@@ -48,22 +48,22 @@ h1,
     color: var(--cr-title-color);
 }
 
-#mainNav{
+#mainNav {
     background-color: var(--cr-secondary-color);
 }
 
-#mainNav button{
+#mainNav button {
     border-color: var(--cr-highlight-color)
 }
 
 
 /* Bootstrap Overrides */
 
-.navbar-toggler{
-    color:var(--cr-nav-toggler-glow)
+.navbar-toggler {
+    color: var(--cr-nav-toggler-glow)
 }
 
-.navbar-toggler-icon-cr{
+.navbar-toggler-icon-cr {
     color: var(--cr-nav-toggler-color);
     font-size: 1.5rem;
     display: inline-block;
@@ -250,7 +250,7 @@ footer {
 
 a.socialIcons:hover {
     color: var(--cr-highlight-color);
-    opacity: 1;  
+    opacity: 1;
 }
 
 
@@ -259,14 +259,14 @@ a.socialIcons:hover {
 /* Break Points */
 @media(min-width: 575.98px) {
     .mainHeader {
-        background-image: url();
+        background-image: url("/img/headers/headerBG_576.png");
         height: 200px;
     }
 }
 
 @media(min-width: 767.98px) {
     .mainHeader {
-        background-image: url();
+        background-image: url("/img/headers/headerBG_768.png");
         height: 300px;
     }
 
@@ -285,14 +285,14 @@ a.socialIcons:hover {
 
 @media(min-width: 991.98px) {
     .mainHeader {
-        background-image: url();
+        background-image: url("/img/headers/headerBG_992.png");
         height: 400px;
     }
 }
 
 @media(min-width: 1199.98px) {
     .mainHeader {
-        background-image: url();
+        background-image: url("/img/headers/headerBG_1200.png");
         height: 500px;
     }
 
